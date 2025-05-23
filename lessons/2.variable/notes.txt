@@ -1,0 +1,88 @@
+1.variable is a empty box which can contain some data
+2.data has to be of a certain data type.
+3.a variable may or may not have a scope
+4.while we create any variable data require to store that is obtain from memory(RAM)
+
+syntax for creating a variable
+
+scope(optional) datatype variable_name = data;
+
+scope(optional) datatype variable_name; -> declaration
+
+variable_name = data; -> initialization
+
+rules for naming a variable
+1. A variable name has to be unique in a scope/class.
+2. A variable name can be alpha numeric but cannot start with a number.
+3. No special Charchters and no space (!@#$%^&*()+/*~`:"), except "_".
+4. Cannot use any keyword (class,main,static,String)
+note: java is camel case(not forced , java built keyword/function are in camel case)
+
+UPPERCASE
+lowercase
+camelCase
+
+box1 -> true
+1box -> false | starts with a number
+box 1 -> false | contain space
+box_1 -> true
+dataBox -> true
+data_Box -> true
+data_box -> true
+data_box_1 -> true
+class1 -> true
+class -> false | keyword
+
+what is data-type
+
+the type of data !
+
+primitive / reference(non-primitive)
+
+primitive -> which can be stored directly into memory(RAM)
+this datatype are there to use directly, this are not a object of any other data type
+byte(1byte) ,integer(int(4bytes)| short(2bytes), long(8bytes)), float(float(4bytes)), double(double(8bytes)), boolean(bool(1Byte)), charchter(char(2byte))
+
+reference(non-primitive) -> this data are stored into memory but as a pointer to a heap(tree data structure).
+Array, String, Object(customised)
+
+example
+
+create a variable named data store the value 1000
+
+we can create a variable a int(non-decimal), float(decimal), short(non-decimal), double(decimal), long(non-decimal)
+
+int data = 1000;
+float data = 1000.0f;
+double data = 1000.00;
+short data = 1000;
+long data = 1000;
+
+create a variable named result and store a boolean (true/false) value.
+
+bool result = true;
+bool result = false;
+
+create a variable named option and store a charchter into it
+
+char option = 'a';
+char option = 'A';
+char option = 'z';
+char option = '#';
+char option = '3';
+
+create a variable named name and store your name (string | non-primitive)
+
+string name = "Amey Khondekar";
+
+range
+
+Type	  Size	        Min Value	                  Max Value
+byte	  1 byte	    -128	                      127
+short	  2 bytes	    -32,768	                      32,767
+int	      4 bytes	    -2,147,483,648	              2,147,483,647
+long	  8 bytes	    -9,223,372,036,854,775,808	  9,223,372,036,854,775,807
+float	  4 bytes	    ~±1.4 × 10⁻⁴⁵	              ~±3.4 × 10³⁸
+double	  8 bytes	    ~±4.9 × 10⁻³²⁴	              ~±1.8 × 10³⁰⁸
+char	  2 bytes	    0	                          65,535
+boolean	  ~1 byte	    false	                      true
