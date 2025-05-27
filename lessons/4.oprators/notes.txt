@@ -1,0 +1,38 @@
+oprators 
+
+this are the special chachter that can be used to perform a certain opration
+
+1. Arithmatic Oprators
++ , - , / , * , %
+
+2. Increement(+1) & dcreement(-1)
+++ , -- (this have pre and post application data++(post), ++data(pre))
+
+3. Assignment Oprators
+=, +=, -=, *=, /=, %=
+x = 10
+x += 10 (x = x + 10)
+x -= 10 (x = x - 10)
+x *= 10 (x = x * 10)
+x /= 10 (x = x / 10)
+x %= 10 (x = x % 10)
+
+4. Comparison Oprators
+< , > , <= , >= , != , == , ===
+
+1 == 1 true
+1 === 1 true
+"1" === 1 false
+"1" == 1 true
+
+5.Logical Oprators
+&&(AND) , ||(OR) , !(NOT)
+
+6.Bitwise Oprators
+AND, OR, NOT
+
+7.Ternary Oprator
+? (will be used to write a Ternary statement[a ternary statment is conditional statement])
+
+8. More oprators
+ . (member access oprator)

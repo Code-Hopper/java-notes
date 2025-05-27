@@ -1,0 +1,31 @@
+user input 
+we can take data from user to store it or to perform any data based opration/s
+
+we need a scanner to take user input
+
+to use first import java.util.scanner;
+
+then create a scanner object 
+Scanner scan = new Scanner(System.in);
+
+now we can use scan(object of scanner class[from util.scanner])
+
+scan object can be used to call various functions
+
+String data = scan.nextLine(); 
+to take string as an user input
+
+char data = scan.next(); 
+to take chachter as an user input
+
+int data= scan.nextInt();
+to take integer as an user input
+
+int data= scan.nextFloat();
+to take float as an user input
+
+double data = scan.nextDouble();
+to take double as an user input
+
+boolean data = scan.nextBoolean();
+to take boolean as an user input
