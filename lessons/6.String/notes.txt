@@ -1,0 +1,33 @@
+It is used to store a sequence of characters.
+['A','m','e','y'] - "Amey"
+Strings in Java are immutable (cannot be changed once created).
+
+Common String methods:
+- length(): returns the length of the string.
+- charAt(int index): returns the character at the specified index.
+- substring(int beginIndex, int endIndex): returns a substring | is a string that is part of a different string.
+- toLowerCase(): converts all characters to lowercase.
+- toUpperCase(): converts all characters to uppercase.
+- equals(String another): compares two strings for equality.
+- compareTo(String another): compares two strings lexicographically.
+- trim(): removes leading and trailing spaces.
+- replace(char oldChar, char newChar): replaces characters.
+- split(String regex): splits the string into an array.
+
+Example:
+String s = "Hello World";
+int len = s.length(); // 11
+char c = s.charAt(0); // 'H'
+String sub = s.substring(0, 5); // "Hello"
+
+each char in a string has a index number start with 0
+
+"String"
+S-0
+t-1
+r-2
+i-3
+n-4
+g-5
+
+the last index of string will also be length - 1

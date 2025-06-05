@@ -20,5 +20,8 @@ public class App {
         // boolean data = scan.nextBoolean();
 
         System.out.println("user has entred : " + data + " ! ");
+
+        scan.close();
+
     }
 }
