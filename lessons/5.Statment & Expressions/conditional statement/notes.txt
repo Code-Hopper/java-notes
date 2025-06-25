@@ -1,0 +1,13 @@
+conditional statements in java
+
+1. if 
+if(condition){
+    //true block of code 
+}
+
+2.if else
+if(condition){
+    true block
+}else {
+    false block
+}

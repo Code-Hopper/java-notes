@@ -1,0 +1,55 @@
+Statement and Expression in Java
+================================
+
+1. Statement in Java
+--------------------
+A statement is a complete unit of execution in Java. It tells the Java compiler to perform a specific action. Statements end with a semicolon (`;`).
+
+Types of Statements:
+--------------------
+1. **Expression Statement**  
+    - Performs an operation and ends with a semicolon.
+    - Examples: assignments, method calls, increment/decrement.
+    - Example:
+      ```java
+      int x = 5;
+      x++;
+      System.out.println(x);
+      ```
+
+2. **Declaration Statement**  
+    - Declares variables and optionally assigns values.
+    - Example:
+      ```java
+      int y;
+      double price = 9.99;
+      ```
+
+3. **Control Flow Statement**  
+    - Controls the flow of execution.
+    - Types:
+      - **Selection Statements:** `if`, `if-else`, `switch`
+      - **Iteration Statements:** `for`, `while`, `do-while`
+      - **Jump Statements:** `break`, `continue`, `return`
+    - Example:
+      ```java
+      if (x > 0) {
+            System.out.println("Positive");
+      }
+      ```
+
+2. Expression in Java
+---------------------
+An expression is a construct that evaluates to a single value. It can be a combination of variables, operators, and method calls.
+
+Examples:
+---------
+- `a + b`
+- `x * 10`
+- `Math.max(5, 10)`
+- `n > 0`
+
+Summary:
+--------
+- **Statement:** Complete instruction (ends with `;`)
+- **Expression:** Produces a value (can be part of a statement)
