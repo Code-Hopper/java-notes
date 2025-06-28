@@ -1,13 +1,50 @@
-conditional statements in java
-
-1. if 
-if(condition){
-    //true block of code 
+// if statement
+if (condition) {
+    // code to execute if condition is true
 }
 
-2.if else
-if(condition){
-    true block
-}else {
-    false block
+// if-else statement
+if (condition) {
+    // code to execute if condition is true
+} else {
+    // code to execute if condition is false
+}
+
+// if-else if-else statement
+if (condition1) {
+    // code to execute if condition1 is true
+} else if (condition2) {
+    // code to execute if condition2 is true
+} else {
+    // code to execute if none of the above conditions are true
+}
+
+nasted if
+
+if(conditio){
+    if(condition){
+        if(condition){
+
+        }else{
+
+        }
+    }else{
+
+    }
+}else{
+    
+}
+
+// switch statement
+to create menu driven program
+switch (expression) {
+    case value1:
+        // code to execute if expression == value1
+        break;
+    case value2:
+        // code to execute if expression == value2
+        break;
+    // more cases...
+    default:
+        // code to execute if no case matches
 }

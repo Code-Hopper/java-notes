@@ -13,12 +13,14 @@ Common String methods:
 - trim(): removes leading and trailing spaces.
 - replace(char oldChar, char newChar): replaces characters.
 - split(String regex): splits the string into an array.
+- string.isEmpty() : will return boolean 
 
 Example:
 String s = "Hello World";
 int len = s.length(); // 11
 char c = s.charAt(0); // 'H'
 String sub = s.substring(0, 5); // "Hello"
+
 
 each char in a string has a index number start with 0
 
