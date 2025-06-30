@@ -48,3 +48,16 @@ switch (expression) {
     default:
         // code to execute if no case matches
 }
+
+looping statement
+
+while do_while for
+
+while(condition){
+    statment
+    updations(must include updation for condtions)
+}
+
+while will repeat a certain set of statment
+while loop require a condition while the condition is true the statment will repeat 
+their has to be updation related to conditions

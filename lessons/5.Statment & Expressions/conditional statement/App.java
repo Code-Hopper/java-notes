@@ -87,40 +87,93 @@ public class App {
         // System.out.println("Enter Number 2 : ");
         // int number2 = scan.nextInt();
 
-        // System.out.println("enter choice 1: Addition, 2: Subtraction , 3: Multiplication, 4: Division, 5: Modulus : ");
+        // System.out.println("enter choice 1: Addition, 2: Subtraction , 3:
+        // Multiplication, 4: Division, 5: Modulus : ");
 
         // int choice = scan.nextInt();
 
         // switch (choice) {
-        //     case 1:
-        //         System.out.println("Addition of numbers is : " + (number1 + number2));
-        //         break;
-        //     case 2:
-        //         System.out.println("Subtraction of numbers is : " + (number1 - number2));
-        //         break;
-        //     case 3:
-        //         System.out.println("Multiplication of numbers is : " + (number1 * number2));
-        //         break;
-        //     case 4:
-        //         System.out.println("Division of numbers is : " + (number1 / number2));
-        //         break;
-        //     case 5:
-        //         System.out.println("Modulus of numbers is : " + (number1 % number2));
-        //         break;
+        // case 1:
+        // System.out.println("Addition of numbers is : " + (number1 + number2));
+        // break;
+        // case 2:
+        // System.out.println("Subtraction of numbers is : " + (number1 - number2));
+        // break;
+        // case 3:
+        // System.out.println("Multiplication of numbers is : " + (number1 * number2));
+        // break;
+        // case 4:
+        // System.out.println("Division of numbers is : " + (number1 / number2));
+        // break;
+        // case 5:
+        // System.out.println("Modulus of numbers is : " + (number1 % number2));
+        // break;
 
-        //     default:
-        //         System.out.println("wrong choice entered Please Enter Choice from (1 - 5) !");
-        //         break;
+        // default:
+        // System.out.println("wrong choice entered Please Enter Choice from (1 - 5)
+        // !");
+        // break;
         // }
 
         // int age = 20;
         // boolean learning = false;
 
         // if(age > 18 || learning == true){
-        //     System.out.println("can drive");
+        // System.out.println("can drive");
         // }else{
-        //     System.out.println("Can't drive");
+        // System.out.println("Can't drive");
         // }
+
+        // while
+
+        // System.out.println(1);
+        // System.out.println(2);
+        // System.out.println(3);
+        // System.out.println(4);
+        // System.out.println(5);
+        // .
+        // .
+        // .
+        // .
+        // .
+        // .
+        // .
+        // .
+        // System.out.println(1000);
+
+        // int number = 0;
+
+        // int data = 0;
+
+        // while(number <= 1000){
+        // System.out.println(number);
+        // number++;
+        // }
+
+        // addition of digits of any number
+
+        // 123456 = 21
+
+        int sum = 0;
+
+        int number = 123456789;
+
+        int digit = 0;
+
+        while (number != 0) {
+            digit = number % 10;
+            sum = sum + digit;
+            number = number / 10;
+        }
+
+        System.out.println("the sum is : " + sum);
 
     }
 }
+
+// sum = 0 + 6
+// sum = 6 + 5
+// sum = 11 + 4
+// sum = 15 + 3
+// sum = 18 + 2
+// sum = 20 + 1
