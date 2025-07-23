@@ -154,26 +154,58 @@ public class App {
 
         // 123456 = 21
 
-        int sum = 0;
+        // int sum = 0;
 
-        int number = 123456789;
+        // int number = 123456789;
 
-        int digit = 0;
+        // int digit = 0;
 
-        while (number != 0) {
-            digit = number % 10;
-            sum = sum + digit;
-            number = number / 10;
+        // while (number != 0) {
+        // digit = number % 10;
+        // sum = sum + digit;
+        // number = number / 10;
+        // }
+
+        // System.out.println("the sum is : " + sum);
+
+        // int rows = 5;
+
+        // int totalSpace = 5;
+
+        // for (int i = 0; i < rows; i++) {
+        // // for space
+        // for (int space = 0; space < totalSpace - 1; space++) {
+        // System.out.print("  ");
+        // }
+        // // for star
+        // for (int star = 0; star <= i; star++) {
+        // System.out.print(" * ");
+        // }
+        // System.out.println("");
+        // totalSpace--;
+        // }
+
+        int rows = 5;
+
+        int totalSpace = 5;
+
+        for (int i = 0; i < rows; i++) {
+            // for space
+            for (int space = 0; space < totalSpace - 1; space++) {
+                System.out.print("   ");
+            }
+            // for star left side
+            for (int leftstar = 0; leftstar <= i; leftstar++) {
+                System.out.print(" * ");
+            }
+
+            // for star right side
+            for (int rightstar = 1; rightstar <= i; rightstar++) {
+                System.out.print(" * ");
+            }
+
+            System.out.println("");
+            totalSpace--;
         }
-
-        System.out.println("the sum is : " + sum);
-
     }
 }
-
-// sum = 0 + 6
-// sum = 6 + 5
-// sum = 11 + 4
-// sum = 15 + 3
-// sum = 18 + 2
-// sum = 20 + 1
