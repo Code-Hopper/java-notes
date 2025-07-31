@@ -185,27 +185,35 @@ public class App {
         // totalSpace--;
         // }
 
-        int rows = 5;
+        // int rows = 5;
 
-        int totalSpace = 5;
+        // int totalSpace = 5;
 
-        for (int i = 0; i < rows; i++) {
-            // for space
-            for (int space = 0; space < totalSpace - 1; space++) {
-                System.out.print("   ");
-            }
-            // for star left side
-            for (int leftstar = 0; leftstar <= i; leftstar++) {
-                System.out.print(" * ");
-            }
+        // for (int i = 0; i < rows; i++) {
+        //     // for space
+        //     for (int space = 0; space < totalSpace - 1; space++) {
+        //         System.out.print("   ");
+        //     }
+        //     // for star left side
+        //     for (int leftstar = 0; leftstar <= i; leftstar++) {
+        //         System.out.print(" * ");
+        //     }
 
-            // for star right side
-            for (int rightstar = 1; rightstar <= i; rightstar++) {
-                System.out.print(" * ");
-            }
+        //     // for star right side
+        //     for (int rightstar = 1; rightstar <= i; rightstar++) {
+        //         System.out.print(" * ");
+        //     }
 
-            System.out.println("");
-            totalSpace--;
-        }
+        //     System.out.println("");
+        //     totalSpace--;
+        // }
+
+        int number = 0;
+
+        do{
+            System.out.println(number);
+            number++;
+        }while(number < 10);
+
     }
 }

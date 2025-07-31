@@ -61,3 +61,10 @@ while(condition){
 while will repeat a certain set of statment
 while loop require a condition while the condition is true the statment will repeat 
 their has to be updation related to conditions
+
+do{
+    statements
+    updation
+}while(condition);
+
+will execute statement atleast once even condition is false

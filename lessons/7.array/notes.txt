@@ -1,0 +1,26 @@
+Array is a collection of similar data types
+
+the data is stored into contigious memory location
+
+int numbers[size] = {no of size elements}
+
+int[] numbers = { 1, 2, 3, 4, 5 };
+
+what can be done with an array
+find out length , itration, filter, search, sort, merg 
+
+all element in array are indexed
+
+array starts with 0th index
+
+1 - 0 
+2 - 1
+3 - 2
+4 - 3
+5 - 4
+
+length(no. of elements present) = 5
+
+java.lang.ArrayIndexOutOfBoundsException:
+
+this array index out of bound error will occur if we try to access more element than avaiable.
