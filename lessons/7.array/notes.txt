@@ -148,3 +148,14 @@ for(int item : items){
 
 
 there are dimensions in an array 1-D , 2-D(matrix), 3-D:
+
+Method	Description
+Arrays.toString(array)	Returns a string representation of the array
+Arrays.sort(array)	Sorts the array in ascending order
+Arrays.fill(array, value)	Fills the array with the specified value
+Arrays.equals(arr1, arr2)	Checks if two arrays are equal
+Arrays.copyOf(array, newLength)	Copies and resizes the array
+Arrays.copyOfRange(array, from, to)	Copies a range from the array
+Arrays.binarySearch(array, value)	Searches for a value in a sorted array
+Arrays.asList(array)	Converts array to a List (for object arrays)
+Arrays.stream(array)	Converts array to Stream (used for functional ops)

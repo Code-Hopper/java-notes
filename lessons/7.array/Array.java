@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Array {
     public static void main(String[] args) {
         // int[] numbers = { 1, 2, 3, 4, 5 };
@@ -46,19 +48,33 @@ public class Array {
         // System.out.println(name);
         // }
 
-        int[][] numbers = {
-                { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8 }, { 9 }, { 10, 11, 12, 13, 14, 15 }
-        };
+        // int[][] numbers = {
+        // { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8 }, { 9 }, { 10, 11, 12, 13, 14, 15 }
+        // };
 
-        numbers[0][0] = 1000;
+        // numbers[0][0] = 1000;
 
-        for (int i = 0; i < numbers.length; i++) {
-            for (int j = 0; j < numbers[i].length; j++) {
-                System.out.println(numbers[i][j]);
-            }
-        }
+        // for (int i = 0; i < numbers.length; i++) {
+        // for (int j = 0; j < numbers[i].length; j++) {
+        // System.out.println(numbers[i][j]);
+        // }
+        // }
 
-        System.out.println(numbers[0][0]);
+        // System.out.println(numbers[0][0]);
+
+        // System.out.println(Arrays.toString(numbers[0]));
+
+        // Integer[] numbers = { 1, 3, 2, 5, 4 };
+
+        // Arrays.sort(numbers, (a, b) -> b - a);
+
+        // System.out.println(Arrays.toString(numbers));
+
+        String[] names = {"name2", "name1", "name3"};
+
+        Arrays.sort(names);
+
+        System.out.println(Arrays.toString(names));
 
     }
 }
