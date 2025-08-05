@@ -1,0 +1,28 @@
+function in java
+
+user defined (customly made functions)
+
+scope returnType function_name(args){
+    function body
+}
+
+scope (public | private | protected)
+return type - what the function is going to send back when it is being called !
+
+if return type is void then the function is not suppose to return anything.
+
+type of functions
+
+1.no args and no return
+2.args but no return
+2.no args but return
+2.args and return
+
+to call a function 
+syntax is : function_name(pass args[optional])
+
+a function that should be usable within a scope has to be a static function
+
+if a non -void return type is mentioned then a function must have a return statement
+
+when a function reaches return statement then function is complete any code below return statement would be unreachble
