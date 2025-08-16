@@ -32,6 +32,8 @@ public class sort {
 
         sortedArray = arr;
 
+        printArray(arr);
+
         return sortedArray;
     }
 
@@ -63,22 +65,75 @@ public class sort {
                 break; // already sorted
         }
 
+        printArray(arr);
+
         return arr;
+    }
+
+    public static int[] selectionSort(int[] arr, String type) {
+
+        for (int i = 0; i < arr.length; i++) {
+
+            int minIndex = i;
+
+            if (type == "A") {
+                for (int j = i + 1; j < arr.length; j++) {
+                    if (arr[minIndex] > arr[j]) {
+                        minIndex = j;
+                    }
+                }
+            } else if (type == "D") {
+                for (int j = i + 1; j < arr.length; j++) {
+                    if (arr[minIndex] < arr[j]) {
+                        minIndex = j;
+                    }
+                }
+            }
+            // swap the elements from minIndex and J'th index
+
+            int temp = 0;
+            temp = arr[i];
+            arr[i] = arr[minIndex];
+            arr[minIndex] = temp;
+
+        }
+
+        printArray(arr);
+
+        return arr;
+    }
+
+    public static void printArray(int[] arr) {
+        System.out.print("[");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ,");
+        }
+        System.out.println("]");
+    }
+
+    public static void printArray(String[] arr) {
+        System.out.print("[");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ,");
+        }
+        System.out.println("]");
     }
 
     public static void main(String[] args) {
 
         int[] numbers = { 3, 1, 5, 4, 2 };
 
-        String[] names = { "Zyan", "Bhavesh", "Amey", "Elephant","arnav"};
+        String[] names = { "Zyan", "Bhavesh", "Amey", "Elephant", "arnav" };
 
         numbers = bubbleSort(numbers, "D");
 
         names = bubbleSortString(names, "A");
 
-        System.out.println(Arrays.toString(numbers));
-        System.out.println(Arrays.toString(names));
+        // System.out.println(Arrays.toString(numbers));
+        // System.out.println(Arrays.toString(names));
 
+        numbers = selectionSort(numbers, "D");
+        // System.out.println("selection sorted numbers : " + Arrays.toString(numbers));
     }
 
 }
