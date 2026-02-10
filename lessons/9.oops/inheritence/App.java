@@ -74,6 +74,18 @@ class bird extends animal {
     void fly() {
         System.out.println(this.name + " is flying !");
     }
+
+}
+
+class landBird extends bird {
+    landBird(String name, String type, int limbs, Boolean canFly, Boolean canSwim, Boolean canWalk, Boolean canRun,
+            Boolean canJump, int wings) {
+        super(name, type, limbs, canFly, canSwim, canWalk, canRun, canJump, wings);
+    }
+}
+
+class dogs extends animal{
+
 }
 
 public class App {
@@ -83,15 +95,15 @@ public class App {
 
         a1.DisplayInfo();
 
-        bird b1 = new bird("sparrow", "sky animal", 2, true, false, false, false, true, 2);
+        landBird l1 = new landBird("hen", "land animal", 2, true, false, false, false, true, 2);
 
         // b1.SetAnimalInfo("sparrow", "sky animal", 2, true, false, false, false,
         // true);
 
-        b1.eat();
-        b1.sleep();
-        b1.DisplayInfo();
-        b1.fly();
+        l1.eat(); //animal
+        l1.sleep(); //animal
+        l1.DisplayInfo(); //animal
+        l1.fly(); //bird
     }
 }
 
@@ -114,3 +126,17 @@ public class App {
 // |
 // |
 // bird (child class)
+
+// 3.heirarchical inheritence  
+// parent
+//   |
+//   |
+// /   \
+// c1  c2 (many have more)
+
+// 4.multiple inheritence
+// parent1    parent2
+//      \      /
+//       \    /
+//        \  /
+//       child(one should be interface)
