@@ -5,6 +5,7 @@ Strings in Java are immutable (cannot be changed once created).
 Common String methods:
 - length(): returns the length of the string.
 - charAt(int index): returns the character at the specified index.
+- indexOf('char') : return index no of first occurence
 - substring(int beginIndex, int endIndex): returns a substring | is a string that is part of a different string.
 - toLowerCase(): converts all characters to lowercase.
 - toUpperCase(): converts all characters to uppercase.
