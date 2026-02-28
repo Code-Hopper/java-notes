@@ -146,9 +146,7 @@ for(int item : items){
     sout(item)
 }
 
-
 there are dimensions in an array 1-D , 2-D(matrix), 3-D:
-
 Method	Description
 Arrays.toString(array)	Returns a string representation of the array
 Arrays.sort(array)	Sorts the array in ascending order
